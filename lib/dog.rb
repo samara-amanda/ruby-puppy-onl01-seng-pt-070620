@@ -8,6 +8,7 @@ class Dog
     @name = name
     @@all << self
     @save = save
+
   end
 
   def self.all
@@ -25,7 +26,7 @@ class Dog
   end
 
   def save
-    @@all << self.uniq
+    @@all << self
   end
 
 end
