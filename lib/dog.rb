@@ -26,7 +26,7 @@ class Dog
   end
 
   def save
-    @@all << self.uniq
+    @@all << self
   end
 
 end
